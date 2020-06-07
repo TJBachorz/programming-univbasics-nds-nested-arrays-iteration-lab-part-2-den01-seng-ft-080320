@@ -13,6 +13,7 @@ def find_min_in_nested_arrays(src)
       if inner_count == src[count].length - 1 
         lows << lowest
       end
+      inner_count += 1 
     end 
     count += 1 
   end
